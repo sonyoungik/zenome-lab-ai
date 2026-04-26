@@ -1,10 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <title>zenome Lab AI Hub</title>
+<meta charset="UTF-8">
+<title>zenome Lab AI Hub</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #FFD700;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+header img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.container {
+    padding: 40px;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #FFD700;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+</style>
 </head>
+
 <body>
+
+<header>
+    <img src="logo.png">
     <h1>zenome Lab AI Hub</h1>
-    <p>Welcome, Prof. Son</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Research / Paper</h2>
+<p>논문 분석 및 작성</p>
+<button onclick="alert('ChatGPT 연결 예정')">Start</button>
+</div>
+
+<div class="card">
+<h2>Lecture / Book</h2>
+<p>강의 및 교재 제작</p>
+<button onclick="alert('Gemini 연결 예정')">Start</button>
+</div>
+
+<div class="card">
+<h2>Consulting</h2>
+<p>자문 및 보고서 작성</p>
+<button onclick="alert('AI orchestration 연결 예정')">Start</button>
+</div>
+
+</div>
+
 </body>
 </html>
